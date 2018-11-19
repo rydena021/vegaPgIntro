@@ -34,7 +34,6 @@ function getSongs() {
     url: '/songs',
   }).then( function (response) {
     console.log('back from GET with:', response);
-
   }).catch( function (err) {
     console.log('error with GET:', err);
   });
